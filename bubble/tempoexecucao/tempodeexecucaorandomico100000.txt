@@ -1,0 +1,1 @@
+O tempo de execucao eh de: 50.74500 segundos
