@@ -19,5 +19,6 @@ int bemVindo()
     scanf("%i", &opc);
     getchar();
 
+
     return opc;
 }
