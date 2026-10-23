@@ -11,7 +11,7 @@ int *shellsort(int v[], int tam)
     {
         h = 3 * h + 1;
     }
-    
+
     while (h > 0)
     {
         for (i = h; i < tam; i++)
@@ -28,5 +28,5 @@ int *shellsort(int v[], int tam)
         h = h / 3;
     }
 
-    return *v;
+    return v;
 }

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "math.h"
 
-void *selectionsort(int v[], int tam)
+int *selectionsort(int v[], int tam)
 {
     int i, j, min, aux;
 
@@ -24,5 +24,5 @@ void *selectionsort(int v[], int tam)
         }
     }
 
-    return *v;
+    return v;
 }

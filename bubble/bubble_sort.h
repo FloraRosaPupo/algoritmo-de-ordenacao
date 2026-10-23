@@ -19,5 +19,5 @@ int *bubblesort(int v[], int tam)
         }
     }
 
-    return *v;
+    return v;
 }

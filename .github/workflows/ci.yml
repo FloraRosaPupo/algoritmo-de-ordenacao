@@ -1,0 +1,11 @@
+name: C CI
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: gcc -std=c11 -Wall -Wextra -Werror -fsanitize=address,undefined tests/test_sort.c -o test_sort
+      - run: ./test_sort

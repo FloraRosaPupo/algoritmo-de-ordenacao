@@ -21,6 +21,6 @@ int *insertsort(int v[], int tam)
         v[i + 1] = chave;
     }
 
-    return *v;
+    return v;
 }
 
