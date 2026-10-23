@@ -1,7 +1,26 @@
-# Algoritmos de ordenação
+# Algoritmos de Ordenação em C
 
-Estudo em C de Bubble Sort, Insertion Sort, Selection Sort e Shell Sort.
-Cada algoritmo tem uma pasta própria, com rotina de ordenação e demonstrações de tempo de execução.
+## Descrição
+
+Coleção acadêmica de algoritmos de ordenação em C, com rotinas separadas por algoritmo, menus históricos de demonstração e testes automatizados das funções de ordenação.
+
+## Stack e bibliotecas
+
+C e GCC com sanitizadores.
+
+## Funcionalidades
+
+- Bubble sort.
+- Insertion/selection sort.
+- Shell sort e menus de estudo.
+
+## Licença
+
+Não há uma licença de distribuição definida para este repositório. Nenhuma licença MIT, Apache ou equivalente é concedida por este README. As atribuições e os direitos dos materiais de terceiros permanecem preservados.
+
+## Validação e limites
+
+Retorno correto, negativos, duplicados, vetor vazio e unitário. O menu histórico Windows não é o alvo desta CI.
 
 ## Compilar e testar as rotinas
 Requer GCC ou compilador C11 compatível:
@@ -13,22 +32,6 @@ No Windows, execute `test_sort.exe`. Os testes cobrem duplicados, negativos, vet
 
 ## Aplicação interativa
 `main.c` e os menus históricos incluem comandos de terminal específicos de Windows. Os testes das rotinas são independentes desses menus.
-
-## Licença
-Não há licença de distribuição definida neste repositório.
-
-
-## Stack e bibliotecas
-
-C e GCC com sanitizadores.
-
-
-## Funcionalidades
-
-- Bubble sort.
-- insertion/selection sort.
-- Shell sort e menus de estudo.
-
 
 ## Organização e manutenção
 
