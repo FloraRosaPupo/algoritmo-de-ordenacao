@@ -16,3 +16,22 @@ No Windows, execute `test_sort.exe`. Os testes cobrem duplicados, negativos, vet
 
 ## Licença
 Não há licença de distribuição definida neste repositório.
+
+
+## Stack e bibliotecas
+
+C e GCC com sanitizadores.
+
+
+## Funcionalidades
+
+- Bubble sort.
+- insertion/selection sort.
+- Shell sort e menus de estudo.
+
+
+## Organização e manutenção
+
+Os algoritmos já são agrupados por comportamento em bubble/insert/select/shell. As rotinas permanecem separadas dos menus históricos. Não foi imposta uma arquitetura de aplicação sobre funções de ordenação.
+
+Veja [a revisão de desenvolvimento](docs/REVISAO.md) para decisões, testes e limites, e [o guia de contribuição](CONTRIBUTING.md) para o fluxo de manutenção.
